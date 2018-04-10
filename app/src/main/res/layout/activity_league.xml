@@ -119,6 +119,7 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="leagueNextClicked"
         android:text="NEXT"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
