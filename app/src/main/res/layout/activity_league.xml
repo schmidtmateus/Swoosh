@@ -46,37 +46,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <Button
+    <ToggleButton
         android:id="@+id/button2"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="48dp"
-        android:background="@drawable/swoosh_button"
+        android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat"
         android:text="Mens"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
+        android:textOff="MENS"
+        android:textOn="MENS"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="Mens" />
 
-    <Button
+    <ToggleButton
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/swoosh_button"
+        android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat"
         android:text="Womens"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
+        android:textOff="WOMENS"
+        android:textOn="WOMENS"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +89,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-    <Button
+    <ToggleButton
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="60dp"
@@ -96,6 +101,8 @@
         android:text="Co-ed"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
+        android:textOff="Co-ed"
+        android:textOn="Co-ed"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
