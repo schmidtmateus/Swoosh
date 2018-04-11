@@ -38,7 +38,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="92dp"
         android:fontFamily="@font/montserrat"
-        android:text="GO ALL IN"
+        android:text="GO IN"
         android:textColor="@color/colorAccent"
         android:textSize="51sp"
         app:layout_constraintEnd_toEndOf="parent"
